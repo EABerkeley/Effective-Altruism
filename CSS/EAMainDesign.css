@@ -1,68 +1,72 @@
-*{
-	/* A universal CSS reset */
-	margin:0;
-	padding:0;
+body {
+    height: 6000px;
+    background: silver;
+    font-family: Helvetica, Arial;
 }
 
-body{
-	font-size:14px;
-	color:#666;
-	background:grey no-repeat;
-
-	
-
-	font-family:Arial, Helvetica, sans-serif;
+ul {
+    list-style-type: none;
 }
 
-#navigationMenu li{
-	list-style:none;
-	height:39px;
-	padding:2px;
-	width:40px;
+#top-menu {
+    position: fixed;
+    z-index: 1;
+    background: white;
+    left: 0;
+    right: 0;
+    top: 0;
 }
 
-#navigationMenu span{
-	/* Container properties */
-	width:0;
-	left:38px;
-	padding:0;
-	position:absolute;
-	overflow:hidden;
-
-	/* Text properties */
-	font-family:'Myriad Pro',Arial, Helvetica, sans-serif;
-	font-size:18px;
-	font-weight:bold;
-	letter-spacing:0.6px;
-	white-space:nowrap;
-	line-height:39px;
-
-	/* CSS3 Transition: */
-	-webkit-transition: 0.25s;
-
-	/* Future proofing (these do not work yet): */
-	-moz-transition: 0.25s;
-	transition: 0.25s;
+#top-menu li {
+    float: left;
+}
+.fb-like {
+    float: right;
 }
 
-#navigationMenu a{
-	/* The background sprite: */
-	background:url('img/navigation.jpg') no-repeat;
-
-	height:39px;
-	width:38px;
-	display:block;
-	position:relative;
+#top-menu a {
+    display: block;
+    padding: 5px 25px 7px 25px;
+    width: 4em;
+    text-align: center;
+    -webkit-transition: .5s all ease-out;
+    -moz-transition: .5s all ease-out;
+    transition: .5s all ease-out;
+    border-top: 3px solid white;
+    color: #aaa;
+    text-decoration: none;
 }
 
-/* General hover styles */
+#top-menu a:hover {
+    color: #111;
+}
 
-#navigationMenu a:hover span{ width:auto; padding:0 20px;overflow:visible; }
-#navigationMenu a:hover{
-	text-decoration:none;
+#top-menu li.active a {
+    border-top: 3px solid #333;
+    color: #333;
+}
 
-	/* CSS outer glow with the box-shadow property */
-	-moz-circle-shadow:0 0 5px #9ddff5;
-	-webkit-circle-shadow:0 0 5px #9ddff5;
-	circle-shadow:0 0 5px #9ddff5;
+#about {
+    position: absolute;
+    top: 110%;
+}
+
+#events {
+    position: absolute;
+    top: 210%;
+}
+
+#members {
+    position: absolute;
+    top: 310%;
+}
+
+#decal {
+    position: absolute;
+    top: 410%;
+}
+
+#funding {
+    position: absolute;
+    top: 510%;
 }
