@@ -2,42 +2,62 @@
 <html>
 <head>
 	<title> Effective Altruists of Berkeley</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+	<script src="JS/EAMainJS.js"></script>
 	<link rel="stylesheet" type="text/css" href="CSS/EAMainDesign.css">
+
+
 
 </head>
 <body>
-	<!--Menu Bar pre-transition-->
-	<ul id="navigationMenu">
-    <li>
-	    <a class="home" id="home" href="#">
-            <span>Home</span>
-        </a>
-    </li>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
-    <li>
-    	<a class="members" id="members" href="#">
-            <span>Members</span>
-        </a>
-    </li>
 
-    <li>
-	     <a class="funding" id="funding" href="#">
-            <span>Funding</span>
-         </a>
-    </li>
 
-    <li>
-    	<a class="decal" id="decal" href="#">
-            <span>Decal</span>
-        </a>
-    </li>
-
-    <li>
-    	<a class="events" id="events" href="#">
-            <span>Events</span>
-        </a>
-    </li>
+	<ul id="top-menu">
+  <li class="active">
+    <a href="#">Home</a>
+  </li>
+  <li>
+    <a href="#about">About</a>
+  </li>
+  <li>
+    <a href="#events">Events</a>
+  </li>
+  <li>
+    <a href="#members">Members</a>
+  </li>
+  <li>
+    <a href="#decal">Decal</a>
+  </li>
+  <li>
+    <a href="#funding">Funding</a>
+  </li>
+  <div class="fb-like" data-href="https://www.facebook.com/groups/634368256736500/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
 </ul>
-	<!--Menu Bar finish-->
+
+<a id="about">Foo</a>
+
+
+<a id="events">Bar</a>
+
+
+<a id="members">Baz</a>
+
+<a id="decal">Baz</a>
+
+<a id="funding">Baz</a>
+
+
+
+
+
 </body>
 </html>
