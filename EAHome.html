@@ -10,57 +10,42 @@
 
 </head>
 <body>
-
-	<ul id="top-menu">
-  <li class="active">
-    <a href="#">Home</a>
-  </li>
-  <li>
-    <a href="#about">About</a>
-  </li>
-  <li>
-    <a href="#events">Events</a>
-  </li>
-  <li>
-    <a href="#members">Members</a>
-  </li>
-  <li>
-    <a href="#decal">Decal</a>
-  </li>
-  <li>
-    <a href="#funding">Funding</a>
-  </li>
- 
-</ul>
-
-
-<video playsinline autoplay muted loop id="bgvid"> 
-    <source src="http://swf.tubechop.com/tubechop.swf?vurl=QI9ta7qkazU&start=5&end=10&cid=8473563" type="video/swf">
-    <!--<source src="polina.mp4" type="video/mp4">-->
+<video id="bgvid" playsinline autoplay muted loop>
+  <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+<!--<source src="https://www.youtube.com/embed/ICr_bOuM9Zo" type="video/webm">-->
+<source src="css/img/keyboard.mp4._640x360_MP4.mp4" type="video/mp4">
 </video>
+
+<span onclick="openNav()">
+	<div class="container," onclick="transform(this)">
+  		<div class="bar1"></div>
+  		<div class="bar2"></div>
+  		<div class="bar3"></div>
+	</div>
 	
-<a id="about">
-&nbsp;
+</span>
+	
+<div id="menu-bar" class="overlay">
+	<!--<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>-->
+	
+	<div class="overlay-content">
+    <a href="#">About</a>
+    <a href="#">Events</a>
+    <a href="#">Members</a>
+    <a href="#">Decal</a>
+    <a href="#">Funding</a>
 
+  </div>
+</div>
 
+<img src="CSS/img/EApic.png" id="ealogo" class="ealogo" />
+	
 
-
-</a>
-
-
-<a id="events">Bar</a>
-
-
-
-<a id="members">Baz</a>
-
-<a id="decal">Baz</a>
-
-<a id="funding">Baz</a>
 
 
 
 
 
 </body>
+
 </html>
