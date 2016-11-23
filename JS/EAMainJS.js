@@ -1,17 +1,23 @@
 /* Open when someone clicks on the span element */
+function closeNav() {
+    document.getElementById("menu-bar").style.width = "100%";
+}
 function openNav() {
-	//if($(this).hasClass('openbtn'))
+	if($('#nav-icon1').hasClass('open')==true)
+		{
+			closeNav();
+		}
+	else
 	{
-	document.getElementById("menu-bar").style.width= "100%";
+	document.getElementById("menu-bar").style.width= "0%";
 	$(this).toggleClass('close');
+	console.log("It's true")
 	}
-	//else closeNav();
+	
 }
 
 /* Close when someone clicks on the "x" symbol inside the overlay */
-function closeNav() {
-    document.getElementById("menu-bar").style.width = "0%";
-}
+
 
 $(document).ready(function(){
 	$('#nav-icon1').click(function(){
