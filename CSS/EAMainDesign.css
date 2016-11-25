@@ -240,3 +240,47 @@ video {
 	border-radius: 25px;
 	font-size: 24px;
 }
+#fundingbody2
+{
+	text-align: center;
+	left: 10%;
+	width: 80%;
+	position: absolute;
+	background:  rgba(124, 124, 124, .5);
+	clear: both;
+	top: 65%;
+	font: Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black," sans-serif";
+	border-radius: 25px;
+	font-size: 18px;
+}
+.table {
+	position: absolute;
+	text-align: center;
+	width: 20%;
+	top: 80%;
+	font: Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black," sans-serif";
+	border-radius: 25px;
+	font-size: 24px;
+	background: rgba(124,124,124,.5);
+}
+.table-body {
+	width: 20%;
+	position: absolute;
+	top: 87%;
+	font: Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black," sans-serif";
+	border-radius: 25px;
+	font-size: 18px;
+	background: rgba(124,124,124,.5);
+}
+#givinggames-header,#givinggames-body
+{
+	left:10%;
+}
+#decal-header,#decal-body
+{
+	left:40%;
+}
+#misc-header,#misc-body
+{
+	left:70%;
+}
