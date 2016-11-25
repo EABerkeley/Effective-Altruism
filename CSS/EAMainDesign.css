@@ -200,3 +200,30 @@ video {
 	font-size: 18px;
 	
 }
+.body2
+{
+	left: 10%;
+	text-align: center;
+	width: 80%;
+	position: absolute;
+	background:  rgba(124, 124, 124, .5);
+	clear: both;
+	top: 37%;
+	font: Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black," sans-serif";
+	border-radius: 25px;
+	font-size: 18px;
+	
+}
+.body3
+{
+	left: 10%;
+	width: 80%;
+	position: absolute;
+	background:  rgba(124, 124, 124, .5);
+	clear: both;
+	top: 130%;
+	font: Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black," sans-serif";
+	border-radius: 25px;
+	font-size: 18px;
+	
+}
