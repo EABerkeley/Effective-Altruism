@@ -166,3 +166,19 @@ video {
 	position: absolute;
 	
 }
+
+.topbar
+{
+	align: top;
+	vertical-align: top;
+	clear: both;
+}
+.header
+{
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	background:  rgba(124, 124, 124, .5);
+	clear: both;
+	top:20%;
+}
