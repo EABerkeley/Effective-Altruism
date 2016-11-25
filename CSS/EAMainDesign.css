@@ -175,11 +175,10 @@ video {
 }
 .header
 {
-	text-color: #FEB513;
 	text-align: center;
 	width: 100%;
 	position: absolute;
-	background-color: #7C7C7C;
+	background:  rgba(124, 124, 124, .5);
 	clear: both;
 	top:20%;
 }
